@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Дано число из отрезка [10, 99]. Показать наибольшую цифру числа.
+
