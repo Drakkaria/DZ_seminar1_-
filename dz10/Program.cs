@@ -2,11 +2,11 @@
 // является ли второе число кратным первому. Если второе число не кратно числу первому, 
 // то программа выводит остаток от деления.
 
-Console.Write("введите 1е число:");
-Double FN = Double.Parse(Console.Readline()!);
+Console.Write("введите 1е число: ");
+Double FN = Double.Parse(Console.ReadLine()!);
 
 Console.Write("введите 2е число:");
-Double SN = Double.Parse(Console.Readline()!);
+Double SN = Double.Parse(Console.ReadLine()!);
 
 if (FN % SN == 0)
 {
@@ -15,7 +15,7 @@ if (FN % SN == 0)
 
 else
 {
-    Console.Write("вывод остатка");
-    Console.WriteLine("FN%SN");
+    Console.Write("вывод остатка ");
+    Console.WriteLine( FN%SN );
 }
 
