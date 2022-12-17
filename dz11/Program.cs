@@ -3,9 +3,15 @@
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
 // 2 -> " -2, -1, 0, 1, 2"
 
-Console.WriteLine("введите 1е число");
-int N = int.Parse(Console.Readline()!);
+Console.WriteLine("введите число");
+int N = int.Parse(Console.ReadLine()!);
 
-int [] array
+int N1 = (N) * (-1);
 
-int n = array.length;
+while (N1 <= N)
+{
+    Console.WriteLine (N1);
+}
+N1 = N1 + 1;
+
+
