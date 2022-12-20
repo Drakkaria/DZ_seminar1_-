@@ -1,4 +1,5 @@
-﻿// 2. По заданному номеру дня недели вывести его название.
+﻿// Задание №2. 
+// По заданному номеру дня недели вывести его название.
 
 Console.Write("Введите число номер дня недели ");
 int day = int.Parse(Console.ReadLine()!);
@@ -11,32 +12,32 @@ int e = 5;
 int f = 6;
 int g = 7;
 
-if(day == a)
+if (day == a)
 {
-    Console.WriteLine ("понедельник");
+    Console.WriteLine("понедельник");
 }
-if(day == b)
+if (day == b)
 {
-    Console.WriteLine ("вторник");
+    Console.WriteLine("вторник");
 }
-if(day == c)
+if (day == c)
 {
-    Console.WriteLine ("среда");
+    Console.WriteLine("среда");
 }
-if(day == d)
+if (day == d)
 {
-    Console.WriteLine ("четверг");
+    Console.WriteLine("четверг");
 }
-if(day == e)
+if (day == e)
 {
-    Console.WriteLine ("пятница");
+    Console.WriteLine("пятница");
 }
-if(day == f)
+if (day == f)
 {
-    Console.WriteLine ("суббота");
+    Console.WriteLine("суббота");
 }
-if(day == g)
+if (day == g)
 {
-    Console.WriteLine ("воскресение");
+    Console.WriteLine("воскресение");
 }
 
