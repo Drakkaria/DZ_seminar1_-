@@ -2,6 +2,6 @@
 
 Console.Write("Введите трехзначное число: ");
 int a = int.Parse(Console.ReadLine()!);
-int b = a/10%10;
+int b = a/10%10;       // например число 589. 589/10=58,9 остаток убираем = 58, далее 58%10=8 итого 2я цифра 8
 Console.Write("второе число: ");
 Console.WriteLine(b);
