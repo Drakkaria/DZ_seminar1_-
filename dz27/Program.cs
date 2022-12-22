@@ -27,7 +27,7 @@ for (int i = 0; i < string_x.Length; i++)
 Console.Write(summ);
 
 
-//3я пОпытка
+
 
 
 
