@@ -5,14 +5,25 @@
 int[] array = new int [10];
 Console.Write("[");
 for (int i = 0; i <array.Length; i++)
+
 {
     int randomNumber = new Random().Next(-9, 9);
-    Console.Write(randomNumber.ToString() + ", ");
+    array [i] = randomNumber;
+    Console.Write(array [i].ToString() + ", ");
+    
+}
+Console.Write("] -> ");
+Console.Write("[");
+for (int i = 0; i <array.Length; i++)
+{
+    array [i] = (i * -1);
+    Console.Write(array [i].ToString() + ", ");
 }
 Console.Write("]");
 
 
 
+//Console.Write(randomNumber);
 // {
 //     array[i] = new Random().Next(-10, 10);
 //     string elements = Convert.ToString(array[i]);
