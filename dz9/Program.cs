@@ -7,12 +7,9 @@ Console.Write("Введите второе число: ");
 Double SN = Double.Parse(Console.ReadLine()!);
 
 
-   if ( FN % SN == 0 )
-   {
-        Console.Write("Первое число кратно второму");
-   }
-   else
-   {
-    Console.WriteLine(FN/SN);
-    Console.WriteLine("Число не кратно");
-   }
+if ( FN % SN == 0 ) 
+Console.Write("Первое число кратно второму");
+   
+else 
+Console.WriteLine("Число не кратно");
+   
