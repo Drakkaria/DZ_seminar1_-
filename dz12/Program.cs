@@ -1,14 +1,16 @@
-﻿
-Console.Write("Введите число -> ");
-int number = int.Parse(Console.ReadLine()!);
-string numStr = $"{number}";
-int ln = numStr.Length;
+﻿// Задача №12.
+// Напишите программу, которая на вход принимает одно число (N), 
+// а на выходе показывает все целые числа в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+// 2 -> " -2, -1, 0, 1, 2"
 
-if (ln >= 3 )
+Console.WriteLine("введите число");
+int N = int.Parse(Console.ReadLine()!);
+
+int N1 = (N) * (-1);
+
+while (N1 <= N)
 {
-    Console.Write(numStr[2]);
+    Console.WriteLine (N1);
 }
-else
-    {
-        Console.Write("третьей цифры нет");
-    }
+N1 = N1 + 1;
