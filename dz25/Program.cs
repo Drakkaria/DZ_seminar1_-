@@ -5,11 +5,13 @@
 //2, 4 -> 16
 
 Console.Write("Введите число A ");
-int A = int.Parse(Console.ReadLine()!);
+int a = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число B ");
-int B = int.Parse(Console.ReadLine()!);
-int C = 1;
-while (int < b)
+int b = int.Parse(Console.ReadLine()!);
+int cocos = a;
+while (i < b)
 {
-    C = C * A
+    cocos = cocos * A;
+    i++;
 }
+Console.Write("A в степени B равно" + cocos);
