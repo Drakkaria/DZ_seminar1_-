@@ -1,17 +1,18 @@
-﻿// Задача 3. Напишите программу, которая на вход принимает одно число (N), 
-// а на выходе показывает все целые числа в промежутке от -N до N.
-// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
-// 2 -> " -2, -1, 0, 1, 2"
+﻿// Задача 11. 
+// Является ли второе число кратным первому. Если второе число не кратно числу первому, 
+// то программа выводит остаток от деления.
 
-Console.WriteLine("введите число");
-int N = int.Parse(Console.ReadLine()!);
+Console.Write("введите 1е число: ");
+Double FN = Double.Parse(Console.ReadLine()!);
 
-int N1 = (N) * (-1);
+Console.Write("введите 2е число:");
+Double SN = Double.Parse(Console.ReadLine()!);
 
-while (N1 <= N)
+if (FN % SN == 0)
+Console.Write("1е число кратно 2му");
+    
+else
 {
-    Console.WriteLine (N1);
+    Console.Write("вывод остатка: ");
+    Console.WriteLine( FN%SN );
 }
-N1 = N1 + 1;
-
-
