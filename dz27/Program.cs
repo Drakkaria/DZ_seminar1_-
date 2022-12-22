@@ -4,27 +4,31 @@
 //82 -> 10
 //9012 -> 12
 
-//  Console.Write("Введите число: ");
-//  int a = int.Parse(Console.ReadLine()!);
-//  int i = 0;
-//  int.lenght = a;
-
-// for (i=0; i <= a; i++);
-// Console.Write("Сумма чисел: ");
-
-
-Console.Write("Здрасти! Введите число: ");
-int a = int.Parse(Console.ReadLine()!);
-int b = (a / 1000) + (a / 100) + (a /10 % 10) + (a % 10);                 // 9012/1000=9 9012
-
-Console.Write("Сумма циферок: ");
-Console.WriteLine(b);
-
-// int b = a/10%10;    // например число 589. 589/10=58,9 остаток убираем = 58, далее 58%10=8 итого 2я цифра 8
-
-// if (a > 99 && a < 1000) 
-// {
-// Console.Write("второе число: ");
+//1я пОпытка
+// Console.Write("Здрасти! Введите число: ");
+// int a = int.Parse(Console.ReadLine()!);
+// int b = (a / 100) + (a /10 % 10) + (a % 10);                 // 452=4
+// Console.Write("Сумма циферок: ");
 // Console.WriteLine(b);
-// }
-// else Console.Write("Алло, читай вниметельно да! Это не трехзначное число!");
+
+//2я пОпытка через ФОР
+
+Console.Write("Введите число -> ");
+int x = int.Parse(Console.ReadLine()!);
+string string_x = Convert.ToString(x);
+
+int summ = 0;
+
+for (int i = 0; i < string_x.Length; i++)
+{
+   string a = Convert.ToString(string_x[i]);
+   summ = summ + Convert.ToInt32(a);
+}
+Console.Write(summ);
+
+
+//3я пОпытка
+
+
+
+
